@@ -1,0 +1,77 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url('calc.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px auto;
+    padding: 30px auto;
+    margin: auto;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 2px;
+    border: 3px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+label, #result {
+    font-size: 1.1em;
+    color: #333;
+  }
+
+#result {
+    padding: 10px auto;
+    margin-top: 10px auto;
+    background-color: #dbb5cb;
+    border: 1px solid #c1238c;
+    border-radius: 5px;
+    max-height: 150px;
+    overflow-y: auto;
+    text-align: left;
+}
+
+footer {
+    color: #350a2f;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #cfa7c0;
+    text-align: center;
+    padding: 10px;
+}
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <title>Task 1 Calculator</title>
+    <script src="calculator.js" defer></script>
+</head>
+<body>
+    <div class="w3-container container w3-card">
+        <h1>Calculator</h1>
+        <form>
+            <input type="text" id="number1" placeholder="Enter first number">
+            <input type="text" id="number2" placeholder="Enter second number">
+            <br>
+            <div class="w3-center">
+                <button type="button" onclick="add()"class="w3-button w3-blue w3-margin-top">ADD</button>
+                <button type="button" onclick="subtract()"class="w3-button w3-blue w3-margin-top">SUBTRACT</button>
+                <button type="button" onclick="multiply()"class="w3-button w3-blue w3-margin-top">MULTIPLY</button>
+                <button type="button" onclick="divide()"class="w3-button w3-blue w3-margin-top">DIVIDE</button>
+            </div>
+            <br>
+            <p>Result: <span id="result">0</span></p>
+        </form>
+    </div>
+    <footer>
+        <p>NUR FATINI BINTI ZAHARI (211069)</p>
+      </footer>
+</body>
+</html>
